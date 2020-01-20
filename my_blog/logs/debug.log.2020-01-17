@@ -1,0 +1,790 @@
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir /Users/admin/django_project/my_blog/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/lib/python3.8/site-packages/django/contrib/admin/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/lib/python3.8/site-packages/django/contrib/contenttypes/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/lib/python3.8/site-packages/django/contrib/sessions/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/lib/python3.8/site-packages/django/contrib/messages/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/lib/python3.8/site-packages/django/contrib/staticfiles/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/lib/python3.8/site-packages/django/contrib/sites/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/lib/python3.8/site-packages/allauth/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/lib/python3.8/site-packages/allauth/account/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/lib/python3.8/site-packages/allauth/socialaccount/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/lib/python3.8/site-packages/allauth/socialaccount/providers/github/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/lib/python3.8/site-packages/allauth/socialaccount/providers/weibo/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/my_blog/article/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/my_blog/userprofile/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/lib/python3.8/site-packages/password_reset/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/my_blog/comment/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/lib/python3.8/site-packages/taggit/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/lib/python3.8/site-packages/ckeditor/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/lib/python3.8/site-packages/mptt/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/lib/python3.8/site-packages/notifications/locale with glob **/*.mo.
+Watching dir /Users/admin/django_project/my_blog/notice/locale with glob **/*.mo.
+(0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+(0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+(0.006) b'SHOW FULL TABLES'; args=None
+(0.003) b'SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`'; args=()
+(0.001) b'SELECT @@SQL_AUTO_IS_NULL'; args=None
+(0.000) b'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED'; args=None
+(0.002) b'SELECT COUNT(*) AS `__count` FROM `article_articlepost`'; args=()
+(0.002) b'SELECT `article_articlepost`.`id`, `article_articlepost`.`author_id`, `article_articlepost`.`title`, `article_articlepost`.`body`, `article_articlepost`.`created`, `article_articlepost`.`updated`, `article_articlepost`.`total_views`, `article_articlepost`.`column_id`, `article_articlepost`.`avatar` FROM `article_articlepost` ORDER BY `article_articlepost`.`created` DESC  LIMIT 3'; args=()
+(0.001) b'SELECT `article_articlecolumn`.`id`, `article_articlecolumn`.`title`, `article_articlecolumn`.`created` FROM `article_articlecolumn` WHERE `article_articlecolumn`.`id` = 2'; args=(2,)
+(0.002) b"SELECT DISTINCT `taggit_tag`.`id`, `taggit_tag`.`name`, `taggit_tag`.`slug` FROM `taggit_tag` INNER JOIN `taggit_taggeditem` ON (`taggit_tag`.`id` = `taggit_taggeditem`.`tag_id`) INNER JOIN `django_content_type` ON (`taggit_taggeditem`.`content_type_id` = `django_content_type`.`id`) WHERE (`django_content_type`.`app_label` = 'article' AND `django_content_type`.`model` = 'articlepost' AND `taggit_taggeditem`.`object_id` = 29)"; args=('article', 'articlepost', 29)
+(0.001) b'SELECT `article_articlecolumn`.`id`, `article_articlecolumn`.`title`, `article_articlecolumn`.`created` FROM `article_articlecolumn` WHERE `article_articlecolumn`.`id` = 3'; args=(3,)
+(0.001) b"SELECT DISTINCT `taggit_tag`.`id`, `taggit_tag`.`name`, `taggit_tag`.`slug` FROM `taggit_tag` INNER JOIN `taggit_taggeditem` ON (`taggit_tag`.`id` = `taggit_taggeditem`.`tag_id`) INNER JOIN `django_content_type` ON (`taggit_taggeditem`.`content_type_id` = `django_content_type`.`id`) WHERE (`django_content_type`.`app_label` = 'article' AND `django_content_type`.`model` = 'articlepost' AND `taggit_taggeditem`.`object_id` = 28)"; args=('article', 'articlepost', 28)
+(0.001) b'SELECT `article_articlecolumn`.`id`, `article_articlecolumn`.`title`, `article_articlecolumn`.`created` FROM `article_articlecolumn` WHERE `article_articlecolumn`.`id` = 1'; args=(1,)
+(0.001) b"SELECT DISTINCT `taggit_tag`.`id`, `taggit_tag`.`name`, `taggit_tag`.`slug` FROM `taggit_tag` INNER JOIN `taggit_taggeditem` ON (`taggit_tag`.`id` = `taggit_taggeditem`.`tag_id`) INNER JOIN `django_content_type` ON (`taggit_taggeditem`.`content_type_id` = `django_content_type`.`id`) WHERE (`django_content_type`.`app_label` = 'article' AND `django_content_type`.`model` = 'articlepost' AND `taggit_taggeditem`.`object_id` = 27)"; args=('article', 'articlepost', 27)
+"GET / HTTP/1.1" 200 12648
+"GET /media/article/20200116/d1e7-fyzeyqc2758649_SQdaV7Y.jpg HTTP/1.1" 304 0
+"GET /media/article/20200116/d1e7-fyzeyqc2758649_k2tEdTw.jpg HTTP/1.1" 304 0
+"GET /media/article/20200116/d1e7-fyzeyqc2758649_gOVWHlk.jpg HTTP/1.1" 304 0
+File /Users/admin/django_project/my_blog/my_blog/settings.py. is_changed: False, is_new: True
+File /Users/admin/django_project/my_blog/my_blog/settings.py previous mtime: None, current mtime: 1579263539.2508602
+/Users/admin/django_project/my_blog/my_blog/settings.py notified as changed. Signal results: [(<function translation_file_changed at 0x10c2ac670>, None)].
+/Users/admin/django_project/my_blog/my_blog/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+/Users/admin/django_project/my_blog/my_blog/settings.py changed, reloading.
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+"GET / HTTP/1.1" 200 12648
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1021, in find_library
+    return parser.libraries[name]
+KeyError: 'my_filters_and_tags'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/my_blog/article/views.py", line 56, in article_list
+    return render(request, 'article/list.html', context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1078, in load
+    lib = find_library(parser, name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1023, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'my_filters_and_tags' is not a registered tag library. Must be one of:
+account
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+i18n
+l10n
+log
+mptt_admin
+mptt_tags
+notifications_tags
+socialaccount
+static
+staticfiles
+tz
+"GET / HTTP/1.1" 500 160269
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1021, in find_library
+    return parser.libraries[name]
+KeyError: 'my_filters_and_tags'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/my_blog/article/views.py", line 56, in article_list
+    return render(request, 'article/list.html', context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1078, in load
+    lib = find_library(parser, name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1023, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'my_filters_and_tags' is not a registered tag library. Must be one of:
+account
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+i18n
+l10n
+log
+mptt_admin
+mptt_tags
+notifications_tags
+socialaccount
+static
+staticfiles
+tz
+"GET / HTTP/1.1" 500 159961
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1021, in find_library
+    return parser.libraries[name]
+KeyError: 'my_filters_and_tags'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/my_blog/article/views.py", line 56, in article_list
+    return render(request, 'article/list.html', context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1078, in load
+    lib = find_library(parser, name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1023, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'my_filters_and_tags' is not a registered tag library. Must be one of:
+account
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+i18n
+l10n
+log
+mptt_admin
+mptt_tags
+notifications_tags
+socialaccount
+static
+staticfiles
+tz
+"GET / HTTP/1.1" 500 160269
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1021, in find_library
+    return parser.libraries[name]
+KeyError: 'my_filters_and_tags'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/my_blog/article/views.py", line 56, in article_list
+    return render(request, 'article/list.html', context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1078, in load
+    lib = find_library(parser, name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1023, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'my_filters_and_tags' is not a registered tag library. Must be one of:
+account
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+i18n
+l10n
+log
+mptt_admin
+mptt_tags
+notifications_tags
+socialaccount
+static
+staticfiles
+tz
+"GET / HTTP/1.1" 500 159961
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1021, in find_library
+    return parser.libraries[name]
+KeyError: 'my_filters_and_tags'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/my_blog/article/views.py", line 56, in article_list
+    return render(request, 'article/list.html', context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1078, in load
+    lib = find_library(parser, name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1023, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'my_filters_and_tags' is not a registered tag library. Must be one of:
+account
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+i18n
+l10n
+log
+mptt_admin
+mptt_tags
+notifications_tags
+socialaccount
+static
+staticfiles
+tz
+"GET / HTTP/1.1" 500 159961
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1021, in find_library
+    return parser.libraries[name]
+KeyError: 'my_filters_and_tags'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/my_blog/article/views.py", line 56, in article_list
+    return render(request, 'article/list.html', context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1078, in load
+    lib = find_library(parser, name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1023, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'my_filters_and_tags' is not a registered tag library. Must be one of:
+account
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+i18n
+l10n
+log
+mptt_admin
+mptt_tags
+notifications_tags
+socialaccount
+static
+staticfiles
+tz
+"GET / HTTP/1.1" 500 161072
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1021, in find_library
+    return parser.libraries[name]
+KeyError: 'my_filters_and_tags'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/my_blog/article/views.py", line 56, in article_list
+    return render(request, 'article/list.html', context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1078, in load
+    lib = find_library(parser, name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1023, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'my_filters_and_tags' is not a registered tag library. Must be one of:
+account
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+i18n
+l10n
+log
+mptt_admin
+mptt_tags
+notifications_tags
+socialaccount
+static
+staticfiles
+tz
+"GET / HTTP/1.1" 500 161072
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1021, in find_library
+    return parser.libraries[name]
+KeyError: 'my_filters_and_tags'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/my_blog/article/views.py", line 56, in article_list
+    return render(request, 'article/list.html', context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1078, in load
+    lib = find_library(parser, name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1023, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'my_filters_and_tags' is not a registered tag library. Must be one of:
+account
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+i18n
+l10n
+log
+mptt_admin
+mptt_tags
+notifications_tags
+socialaccount
+static
+staticfiles
+tz
+"GET / HTTP/1.1" 500 161072
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1021, in find_library
+    return parser.libraries[name]
+KeyError: 'my_filters_and_tags'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/my_blog/article/views.py", line 56, in article_list
+    return render(request, 'article/list.html', context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1078, in load
+    lib = find_library(parser, name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1023, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'my_filters_and_tags' is not a registered tag library. Must be one of:
+account
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+i18n
+l10n
+log
+mptt_admin
+mptt_tags
+notifications_tags
+socialaccount
+static
+staticfiles
+tz
+"GET / HTTP/1.1" 500 161072
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1021, in find_library
+    return parser.libraries[name]
+KeyError: 'my_filters_and_tags'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/my_blog/article/views.py", line 56, in article_list
+    return render(request, 'article/list.html', context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1078, in load
+    lib = find_library(parser, name)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 1023, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'my_filters_and_tags' is not a registered tag library. Must be one of:
+account
+admin_list
+admin_modify
+admin_static
+admin_urls
+cache
+i18n
+l10n
+log
+mptt_admin
+mptt_tags
+notifications_tags
+socialaccount
+static
+staticfiles
+tz
+"GET / HTTP/1.1" 500 160937
+ERROR 2020-01-17 21:46:58,596 log 7125 123145397731328 Internal Server Error: /article-detail/29/
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/my_blog/article/views.py", line 80, in article_detail
+    return render(request, 'article/detail.html', context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/urls/resolvers.py", line 660, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'increase_likes' not found. 'increase_likes' is not a valid view function or pattern name.

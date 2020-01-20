@@ -1,0 +1,762 @@
+WARNING 2020-01-18 18:25:23,551 log 5180 123145381294080 Not Found: /favicon.ico
+WARNING 2020-01-18 20:28:52,612 log 884 123145478565888 Not Found: /favicon.ico
+ERROR 2020-01-18 20:44:55,491 log 1040 123145490223104 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 20:44:56,216 log 1040 123145490223104 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 20:44:56,389 log 1040 123145490223104 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 20:44:56,653 log 1040 123145490223104 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 20:44:56,830 log 1040 123145490223104 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:05,675 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:06,376 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:06,552 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:06,732 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:06,909 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:07,075 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:07,245 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:07,421 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:07,623 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:08,025 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:08,250 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:08,369 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:09,687 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:09,847 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:42,415 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:48,688 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:49,527 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:49,891 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:50,071 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:50,356 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:50,561 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:50,871 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:51,061 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:09:51,246 log 2069 123145523585024 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:11:09,714 log 2174 123145481871360 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:11:10,299 log 2174 123145481871360 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:11:10,464 log 2174 123145481871360 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:14:43,237 log 2296 123145365188608 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:14:43,843 log 2296 123145365188608 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:14:44,017 log 2296 123145365188608 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:14:44,208 log 2296 123145365188608 Internal Server Error: /comment/post-comment/29/12
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:20:14,493 log 2416 123145386389504 Internal Server Error: /comment/post-comment/29/13
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:20:15,839 log 2416 123145386389504 Internal Server Error: /comment/post-comment/29/13
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:20:16,078 log 2416 123145386389504 Internal Server Error: /comment/post-comment/29/13
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
+ERROR 2020-01-18 21:20:16,270 log 2416 123145386389504 Internal Server Error: /comment/post-comment/29/13
+Traceback (most recent call last):
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/admin/django_project/my_blog/comment/views.py", line 30, in post_comment
+    new_comment.parent_id = parent_comment.get_root().id
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 395, in _fn
+    return func(self, *args, **kwargs)
+  File "/Users/admin/django_project/lib/python3.8/site-packages/mptt/models.py", line 698, in get_root
+    return self._tree_manager._mptt_filter(
+  File "/Users/admin/django_project/lib/python3.8/site-packages/django/db/models/query.py", line 410, in get
+    raise self.model.MultipleObjectsReturned(
+comment.models.Comment.MultipleObjectsReturned: get() returned more than one Comment -- it returned 5!
